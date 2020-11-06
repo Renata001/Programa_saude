@@ -1,0 +1,19 @@
+.text-white{
+    color:white;
+   
+}
+.text-center{
+    width:100%;
+    text-align: center!important;
+}
+.popup img{
+    width:100% !important;
+    height: 100vh !important ;
+}
+.rodape{
+    height: 10vh!important;
+    width: 100%;
+}
+.sopa{
+    margin-top: 40px!important;
+}

@@ -1,0 +1,116 @@
+<div class="page" data-name="cadastro-alimentos">
+    <div class="navbar">
+      <div class="navbar-inner bg-color-green">
+    
+        <div class="title text-color-white">Cadastro de alimentos</div>
+        <div class="right" id="sair">
+          <a href="/home/" class="link back">                   
+           <img src="img/sair (1).png" alt="" srcset="">             
+          </a>
+        </div>
+      </div>
+    </div>
+
+  <div class="page-content">
+   <div class="block">
+    <div class="text-center">
+                           
+    
+ 
+      <div class="text-center sopa">
+        <img  src="img/sopa2.png" alt="" srcset="">
+      </div>  
+     
+      <H4 class="text-center">Em nosso campo de pequisa   
+        você descobrerá a  composição de alimentos por 100 gramas <br>  e  a quantidade  de calorias <br>  que cada alimento obtêm</H4>
+  
+        
+         <br>
+        <div class="list inline-labels">
+            <ul>
+              <li class="item-content item-input">
+                <div class="item-inner">
+                  <img src="img/procurar.png">
+                    <div class="item-input-wrap">
+                        <input type="text"  id="autocomplete_dropdown" placeholder="Consulte aqui">
+                    </div>
+                </div>
+                
+            </li>
+            
+            <button class="btn-lista col button button-raised button-round bg-color-green text-color-white open-alert">Consultar</button>
+  
+            
+            <span id="resultadoList"></span> 
+              
+      
+            
+            <input id="IDListaSelecionado" type="hidden" value=""> 
+            <input id="DescricaoSelecionado" type="hidden" value="">
+            <input id="KcalSelecionado" type="hidden" value="">
+                                                       
+  
+
+            </ul>
+         </div>   
+    </div> 
+   
+
+
+    <form class="list for-list">
+      <ul>
+        <div class="text-center"><img src="img/formulario-de-contato (2).png" alt=""></div>
+          <h4 class="text-center padding-top">Utilize o formulário abaixo 
+            para cadastrar o alimento e a sua caloria, que você tenha  consumido hoje</h4>   
+
+            <li>
+              <div class="item-content item-input">
+                <div class="item-inner">
+                  <div class="item-title item-label">Nome</div>
+                  <div class="item-input-wrap">
+                    <input type="text" name="nome_completo" id="nome_completo" placeholder="Digite seu nome completo">
+                  </div>
+                </div>
+              </div>
+            </li>
+        
+            <li class="item-content item-input">
+              <div class="item-inner">
+                <div class="item-title item-label">Alimento</div>
+                  <div class="item-input-wrap">
+                      <input type="text"  id="autocomplete_lista" placeholder="Informe um alimento por cadastro">
+                  </div>
+              </div>
+              
+          </li>
+
+          <li>
+            <div class="item-content item-input">
+              <div class="item-inner">
+                <div class="item-title item-label">Calorias</div>
+                <div class="item-input-wrap">
+                  <input type="text" name="kcal" id="kcal" placeholder=" kcal">
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="item-content item-input">
+              <div class="item-inner">
+                <div class="item-title item-label">Data</div>
+                <div class="item-input-wrap">
+                  <input type="date"  id="data_hoje" placeholder="">
+                </div>
+              </div>
+            </div>
+          </li>
+      
+          </ul> 
+          </form>
+                  
+          <button id="btn-test" class=" col button button-raised button-round bg-color-green text-color-white open-alert">cadastrar</button>
+        
+        
+  
+   </div>
+</div>
